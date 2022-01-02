@@ -29,7 +29,7 @@
                             <input class="form-control" type="text" name="salary" id="salary" placeholder="Maaş">
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-danger">Çalışan Ekleyin</button>
+                    <button type="submit" id="calısan-ekle" class="btn btn-danger">Çalışan Ekleyin</button>
                 </form>
                 <hr>
                 <button id="update" class="btn btn-dark" style="display:none;">Çalışanı Güncelleyin</button>
@@ -40,9 +40,13 @@
             </div>
 
             <div class="card-body">
+                <div id="alert">
+                    <!-- <div class="alert alert-success" role="alert">
+                        Kullanıcı basarıyla eklendi
+                    </div> -->
+                </div>
                 <hr>
                 <h5 class="card-title" id="employees-title">Çalışanlar</h5>
-
                 <hr>
                 <table class="table table-dark">
                     <thead>
@@ -56,16 +60,15 @@
                         </tr>
                     </thead>
                     <tbody id="employees">
-                        <!-- <tr>
-                                            
+                        <!-- <tr>        
                                             <td>Mustafa Murat Coşkun</td>
                                             <td>Bilişim</td>
                                             <td>4000</td>
                                             <td>1</td>
                                             <td><a href="#" id = "update-employee" class= "btn btn-danger">Güncelle</a></td> 
                                             <td> <a href="#" id = "delete-employee" class= "btn btn-danger">Sil</a></td>
-                                        </tr>
-                                           -->
+                                        </tr>-->
+
                     </tbody>
                 </table>
                 <hr>
